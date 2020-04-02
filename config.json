@@ -1,0 +1,2824 @@
+{
+  "planetDataPath": "D:\\Modding\\Tools\\SpaceEngineers\\ProceduralOreGenerator\\PlanetDataFiles-old\\PlanetDataFiles",
+  "planetGeneratorDefinitionsPath": "D:\\Modding\\Tools\\SpaceEngineers\\ProceduralOreGenerator\\PlanetDataFiles-old\\PlanetGeneratorDefinitions.sbc",
+  "planetDataOutputPath": "D:\\Modding\\Tools\\SpaceEngineers\\ProceduralOreGenerator\\PlanetDataFiles-deep_ores\\PlanetDataFiles",
+  "planetGeneratorDefinitionsOutputPath": "D:\\Modding\\Tools\\SpaceEngineers\\ProceduralOreGenerator\\PlanetDataFiles-deep_ores\\",
+  "makeColouredMaps": true,
+  "surfaceHintMaps": true,
+  "shape": 2,
+  "density": 0.9,
+  "maxOreTiles": 100000,
+  "maxOrePatches": 5000,
+  "oreTemplates": [
+    {
+      "id": 1,
+      "type": "Iron_02",
+      "surfaceArea": 100,
+      "startDepth": 50,
+      "depth": 250,
+      "testColourHex": "E00000"
+    },
+    {
+      "id": 4,
+      "type": "Iron_02",
+      "surfaceArea": 100,
+      "startDepth": 72,
+      "depth": 228,
+      "testColourHex": "C70000"
+    },
+    {
+      "id": 8,
+      "type": "Iron_02",
+      "surfaceArea": 100,
+      "startDepth": 94,
+      "depth": 206,
+      "testColourHex": "AD0000"
+    },
+    {
+      "id": 12,
+      "type": "Iron_02",
+      "surfaceArea": 100,
+      "startDepth": 125,
+      "depth": 175,
+      "testColourHex": "940000"
+    },
+    {
+      "id": 16,
+      "type": "Iron_02",
+      "surfaceArea": 100,
+      "startDepth": 158,
+      "depth": 142,
+      "testColourHex": "7A0000"
+    },
+    {
+      "id": 20,
+      "type": "Iron_02",
+      "surfaceArea": 100,
+      "startDepth": 181,
+      "depth": 119,
+      "testColourHex": "610000"
+    },
+    {
+      "id": 24,
+      "type": "Nickel_01",
+      "surfaceArea": 30,
+      "startDepth": 60,
+      "depth": 240,
+      "testColourHex": "FF9741"
+    },
+    {
+      "id": 28,
+      "type": "Nickel_01",
+      "surfaceArea": 30,
+      "startDepth": 81,
+      "depth": 209,
+      "testColourHex": "E68739"
+    },
+    {
+      "id": 32,
+      "type": "Nickel_01",
+      "surfaceArea": 30,
+      "startDepth": 110,
+      "depth": 190,
+      "testColourHex": "CC7833"
+    },
+    {
+      "id": 36,
+      "type": "Nickel_01",
+      "surfaceArea": 30,
+      "startDepth": 124,
+      "depth": 176,
+      "testColourHex": "B2692D"
+    },
+    {
+      "id": 40,
+      "type": "Nickel_01",
+      "surfaceArea": 30,
+      "startDepth": 167,
+      "depth": 133,
+      "testColourHex": "995A26"
+    },
+    {
+      "id": 44,
+      "type": "Nickel_01",
+      "surfaceArea": 30,
+      "startDepth": 190,
+      "depth": 110,
+      "testColourHex": "804B20"
+    },
+    {
+      "id": 48,
+      "type": "Silicon_01",
+      "surfaceArea": 30,
+      "startDepth": 49,
+      "depth": 251,
+      "testColourHex": "FFFFFF"
+    },
+    {
+      "id": 52,
+      "type": "Silicon_01",
+      "surfaceArea": 30,
+      "startDepth": 63,
+      "depth": 237,
+      "testColourHex": "E6E6E6"
+    },
+    {
+      "id": 56,
+      "type": "Silicon_01",
+      "surfaceArea": 30,
+      "startDepth": 80,
+      "depth": 220,
+      "testColourHex": "CCCCCC"
+    },
+    {
+      "id": 60,
+      "type": "Silicon_01",
+      "surfaceArea": 30,
+      "startDepth": 112,
+      "depth": 188,
+      "testColourHex": "B2B2B2"
+    },
+    {
+      "id": 64,
+      "type": "Silicon_01",
+      "surfaceArea": 30,
+      "startDepth": 135,
+      "depth": 165,
+      "testColourHex": "999999"
+    },
+    {
+      "id": 68,
+      "type": "Silicon_01",
+      "surfaceArea": 30,
+      "startDepth": 157,
+      "depth": 143,
+      "testColourHex": "808080"
+    },
+    {
+      "id": 72,
+      "type": "Cobalt_01",
+      "surfaceArea": 30,
+      "startDepth": 410,
+      "depth": 390,
+      "testColourHex": "0033FF"
+    },
+    {
+      "id": 76,
+      "type": "Cobalt_01",
+      "surfaceArea": 30,
+      "startDepth": 442,
+      "depth": 358,
+      "testColourHex": "002EE6"
+    },
+    {
+      "id": 80,
+      "type": "Cobalt_01",
+      "surfaceArea": 30,
+      "startDepth": 476,
+      "depth": 324,
+      "testColourHex": "0029CC"
+    },
+    {
+      "id": 84,
+      "type": "Cobalt_01",
+      "surfaceArea": 30,
+      "startDepth": 522,
+      "depth": 248,
+      "testColourHex": "0024B2"
+    },
+    {
+      "id": 88,
+      "type": "Cobalt_01",
+      "surfaceArea": 30,
+      "startDepth": 575,
+      "depth": 225,
+      "testColourHex": "001F99"
+    },
+    {
+      "id": 92,
+      "type": "Cobalt_01",
+      "surfaceArea": 30,
+      "startDepth": 592,
+      "depth": 208,
+      "testColourHex": "001A80"
+    },
+    {
+      "id": 96,
+      "type": "Silver_01",
+      "surfaceArea": 15,
+      "startDepth": 421,
+      "depth": 379,
+      "testColourHex": "A0A0A0"
+    },
+    {
+      "id": 100,
+      "type": "Silver_01",
+      "surfaceArea": 15,
+      "startDepth": 445,
+      "depth": 355,
+      "testColourHex": "878787"
+    },
+    {
+      "id": 104,
+      "type": "Silver_01",
+      "surfaceArea": 15,
+      "startDepth": 471,
+      "depth": 329,
+      "testColourHex": "6E6E6E"
+    },
+    {
+      "id": 108,
+      "type": "Silver_01",
+      "surfaceArea": 15,
+      "startDepth": 515,
+      "depth": 285,
+      "testColourHex": "545454"
+    },
+    {
+      "id": 112,
+      "type": "Silver_01",
+      "surfaceArea": 15,
+      "startDepth": 558,
+      "depth": 242,
+      "testColourHex": "3B3B3B"
+    },
+    {
+      "id": 116,
+      "type": "Silver_01",
+      "surfaceArea": 15,
+      "startDepth": 573,
+      "depth": 227,
+      "testColourHex": "212121"
+    },
+    {
+      "id": 120,
+      "type": "Magnesium_01",
+      "surfaceArea": 60,
+      "startDepth": 515,
+      "depth": 405,
+      "testColourHex": "958CFF"
+    },
+    {
+      "id": 124,
+      "type": "Magnesium_01",
+      "surfaceArea": 60,
+      "startDepth": 523,
+      "depth": 360,
+      "testColourHex": "877EE6"
+    },
+    {
+      "id": 128,
+      "type": "Magnesium_01",
+      "surfaceArea": 60,
+      "startDepth": 531,
+      "depth": 280,
+      "testColourHex": "7870CC"
+    },
+    {
+      "id": 132,
+      "type": "Ice_01",
+      "surfaceArea": 120,
+      "startDepth": 513,
+      "depth": 307,
+      "testColourHex": "8CCAFF"
+    },
+    {
+      "id": 136,
+      "type": "Ice_01",
+      "surfaceArea": 120,
+      "startDepth": 523,
+      "depth": 248,
+      "testColourHex": "7EB5E6"
+    },
+    {
+      "id": 140,
+      "type": "Ice_01",
+      "surfaceArea": 120,
+      "startDepth": 534,
+      "depth": 210,
+      "testColourHex": "70A1CC"
+    },
+    {
+      "id": 144,
+      "type": "Uraninite_01",
+      "surfaceArea": 7,
+      "startDepth": 516,
+      "depth": 350,
+      "testColourHex": "00FF00"
+    },
+    {
+      "id": 148,
+      "type": "Uraninite_01",
+      "surfaceArea": 7,
+      "startDepth": 524,
+      "depth": 300,
+      "testColourHex": "00E600"
+    },
+    {
+      "id": 152,
+      "type": "Uraninite_01",
+      "surfaceArea": 7,
+      "startDepth": 535,
+      "depth": 250,
+      "testColourHex": "00CC00"
+    },
+    {
+      "id": 156,
+      "type": "Uraninite_01",
+      "surfaceArea": 7,
+      "startDepth": 547,
+      "depth": 250,
+      "testColourHex": "00B200"
+    },
+    {
+      "id": 160,
+      "type": "Uraninite_01",
+      "surfaceArea": 7,
+      "startDepth": 551,
+      "depth": 200,
+      "testColourHex": "009900"
+    },
+    {
+      "id": 164,
+      "type": "Uraninite_01",
+      "surfaceArea": 7,
+      "startDepth": 568,
+      "depth": 110,
+      "testColourHex": "008000"
+    },
+    {
+      "id": 168,
+      "type": "Gold_01",
+      "surfaceArea": 20,
+      "startDepth": 517,
+      "depth": 1,
+      "testColourHex": "FFD800"
+    },
+    {
+      "id": 172,
+      "type": "Gold_01",
+      "surfaceArea": 20,
+      "startDepth": 520,
+      "depth": 2,
+      "testColourHex": "E6C300"
+    },
+    {
+      "id": 176,
+      "type": "Gold_01",
+      "surfaceArea": 20,
+      "startDepth": 535,
+      "depth": 3,
+      "testColourHex": "CCAD00"
+    },
+    {
+      "id": 180,
+      "type": "Gold_01",
+      "surfaceArea": 20,
+      "startDepth": 547,
+      "depth": 300,
+      "testColourHex": "B29700"
+    },
+    {
+      "id": 184,
+      "type": "Gold_01",
+      "surfaceArea": 20,
+      "startDepth": 551,
+      "depth": 200,
+      "testColourHex": "998200"
+    },
+    {
+      "id": 188,
+      "type": "Gold_01",
+      "surfaceArea": 20,
+      "startDepth": 564,
+      "depth": 150,
+      "testColourHex": "806D00"
+    },
+    {
+      "id": 192,
+      "type": "Platinum_01",
+      "surfaceArea": 10,
+      "startDepth": 519,
+      "depth": 400,
+      "testColourHex": "5D188E"
+    },
+    {
+      "id": 196,
+      "type": "Platinum_01",
+      "surfaceArea": 10,
+      "startDepth": 527,
+      "depth": 300,
+      "testColourHex": "5D188E"
+    },
+    {
+      "id": 208,
+      "type": "Platinum_01",
+      "surfaceArea": 10,
+      "startDepth": 531,
+      "depth": 240,
+      "testColourHex": "4D1475"
+    },
+    {
+      "id": 212,
+      "type": "Platinum_01",
+      "surfaceArea": 10,
+      "startDepth": 544,
+      "depth": 300,
+      "testColourHex": "3C105C"
+    },
+    {
+      "id": 217,
+      "type": "Platinum_01",
+      "surfaceArea": 10,
+      "startDepth": 558,
+      "depth": 200,
+      "testColourHex": "2B0B42"
+    },
+    {
+      "id": 222,
+      "type": "Platinum_01",
+      "surfaceArea": 10,
+      "startDepth": 562,
+      "depth": 150,
+      "testColourHex": "1B0729"
+    }
+  ],
+  "planets": [
+    {
+      "name": "EarthLike",
+      "seed": 2,
+      "surfaceHintColour": 255,
+      "mappingFileTargetColour": "#FFFFFF",
+      "mappingFileColourInfluence": 90,
+      "ores": [{
+          "id": 1,
+          "p": 0.4
+        },
+        {
+          "id": 4,
+          "p": 0.4
+        },
+        {
+          "id": 8,
+          "p": 0.4
+        },
+        {
+          "id": 12,
+          "p": 0.4
+        },
+        {
+          "id": 16,
+          "p": 0.4
+        },
+        {
+          "id": 20,
+          "p": 0.4
+        },
+        {
+          "id": 24,
+          "p": 0.2
+        },
+        {
+          "id": 28,
+          "p": 0.2
+        },
+        {
+          "id": 32,
+          "p": 0.2
+        },
+        {
+          "id": 36,
+          "p": 0.2
+        },
+        {
+          "id": 40,
+          "p": 0.2
+        },
+        {
+          "id": 44,
+          "p": 0.2
+        },
+        {
+          "id": 48,
+          "p": 0.2
+        },
+        {
+          "id": 52,
+          "p": 0.2
+        },
+        {
+          "id": 56,
+          "p": 0.2
+        },
+        {
+          "id": 60,
+          "p": 0.2
+        },
+        {
+          "id": 64,
+          "p": 0.2
+        },
+        {
+          "id": 68,
+          "p": 0.2
+        },
+        {
+          "id": 72,
+          "p": 0.4
+        },
+        {
+          "id": 76,
+          "p": 0.4
+        },
+        {
+          "id": 80,
+          "p": 0.4
+        },
+        {
+          "id": 84,
+          "p": 0.4
+        },
+        {
+          "id": 88,
+          "p": 0.4
+        },
+        {
+          "id": 92,
+          "p": 0.4
+        },
+        {
+          "id": 96,
+          "p": 0.02
+        },
+        {
+          "id": 100,
+          "p": 0.02
+        },
+        {
+          "id": 104,
+          "p": 0.02
+        },
+        {
+          "id": 108,
+          "p": 0.02
+        },
+        {
+          "id": 112,
+          "p": 0.02
+        },
+        {
+          "id": 116,
+          "p": 0.02
+        },
+        {
+          "id": 120,
+          "p": 0.15
+        },
+        {
+          "id": 124,
+          "p": 0.15
+        },
+        {
+          "id": 128,
+          "p": 0.15
+        },
+        {
+          "id": 132,
+          "p": 0.40
+        },
+        {
+          "id": 136,
+          "p": 0.40
+        },
+        {
+          "id": 140,
+          "p": 0.40
+        },
+        {
+          "id": 144,
+          "p": 0.008
+        },
+        {
+          "id": 148,
+          "p": 0.008
+        },
+        {
+          "id": 152,
+          "p": 0.008
+        },
+        {
+          "id": 156,
+          "p": 0.008
+        },
+        {
+          "id": 160,
+          "p": 0.008
+        },
+        {
+          "id": 164,
+          "p": 0.008
+        },
+        {
+          "id": 168
+        },
+        {
+          "id": 172
+        },
+        {
+          "id": 176
+        },
+        {
+          "id": 180
+        },
+        {
+          "id": 184
+        },
+        {
+          "id": 188
+        },
+        {
+          "id": 192
+        },
+        {
+          "id": 196
+        },
+        {
+          "id": 208
+        },
+        {
+          "id": 212
+        },
+        {
+          "id": 217
+        },
+        {
+          "id": 222
+        }
+      ]
+    },
+    {
+      "name": "Moon",
+      "seed": 1,
+      "surfaceHintColour": 255,
+      "mappingFileTargetColour": "#FFFFFF",
+      "mappingFileColourInfluence": 90,
+      "ores": [{
+          "id": 1,
+          "p": 0.1
+        },
+        {
+          "id": 4,
+          "p": 0.1
+        },
+        {
+          "id": 8,
+          "p": 0.1
+        },
+        {
+          "id": 12,
+          "p": 0.1
+        },
+        {
+          "id": 16,
+          "p": 0.1
+        },
+        {
+          "id": 20,
+          "p": 0.1
+        },
+        {
+          "id": 24,
+          "p": 0.05
+        },
+        {
+          "id": 28,
+          "p": 0.05
+        },
+        {
+          "id": 32,
+          "p": 0.05
+        },
+        {
+          "id": 36,
+          "p": 0.05
+        },
+        {
+          "id": 40,
+          "p": 0.05
+        },
+        {
+          "id": 44,
+          "p": 0.05
+        },
+        {
+          "id": 48,
+          "p": 0.3
+        },
+        {
+          "id": 52,
+          "p": 0.3
+        },
+        {
+          "id": 56,
+          "p": 0.3
+        },
+        {
+          "id": 60,
+          "p": 0.3
+        },
+        {
+          "id": 64,
+          "p": 0.3
+        },
+        {
+          "id": 68,
+          "p": 0.3
+        },
+        {
+          "id": 72
+        },
+        {
+          "id": 76
+        },
+        {
+          "id": 80
+        },
+        {
+          "id": 84
+        },
+        {
+          "id": 88
+        },
+        {
+          "id": 92
+        },
+        {
+          "id": 96,
+          "p": 0.4,
+          "planetFaces": ["BACK"]
+        },
+        {
+          "id": 100,
+          "p": 0.4,
+          "planetFaces": ["BACK"]
+        },
+        {
+          "id": 104,
+          "p": 0.4,
+          "planetFaces": ["BACK"]
+        },
+        {
+          "id": 108,
+          "p": 0.4,
+          "planetFaces": ["BACK"]
+        },
+        {
+          "id": 108,
+          "p": 0.4,
+          "planetFaces": ["BACK"]
+        },
+        {
+          "id": 112,
+          "p": 0.4,
+          "planetFaces": ["BACK"]
+        },
+        {
+          "id": 116,
+          "p": 0.4,
+          "planetFaces": ["BACK"]
+        },
+        {
+          "id": 120,
+          "p": 0.05
+        },
+        {
+          "id": 124,
+          "p": 0.05
+        },
+        {
+          "id": 128,
+          "p": 0.05
+        },
+        {
+          "id": 132,
+          "p": 0.4
+        },
+        {
+          "id": 136,
+          "p": 0.4
+        },
+        {
+          "id": 140,
+          "p": 0.4
+        },
+        {
+          "id": 144
+        },
+        {
+          "id": 148
+        },
+        {
+          "id": 152
+        },
+        {
+          "id": 156
+        },
+        {
+          "id": 160
+        },
+        {
+          "id": 164
+        },
+        {
+          "id": 168,
+          "p": 0.2,
+          "planetFaces": ["FRONT"]
+        },
+        {
+          "id": 172,
+          "p": 0.2,
+          "planetFaces": ["FRONT"]
+        },
+        {
+          "id": 176,
+          "p": 0.2,
+          "planetFaces": ["FRONT"]
+        },
+        {
+          "id": 180,
+          "p": 0.2,
+          "planetFaces": ["FRONT"]
+        },
+        {
+          "id": 184,
+          "p": 0.2,
+          "planetFaces": ["FRONT"]
+        },
+        {
+          "id": 188,
+          "p": 0.2,
+          "planetFaces": ["FRONT"]
+        },
+        {
+          "id": 192,
+          "p": 0.005
+        },
+        {
+          "id": 196,
+          "p": 0.005
+        },
+        {
+          "id": 208,
+          "p": 0.005
+        },
+        {
+          "id": 212,
+          "p": 0.005
+        },
+        {
+          "id": 217,
+          "p": 0.005
+        },
+        {
+          "id": 222,
+          "p": 0.005
+        }
+      ]
+    },
+    {
+      "name": "Mars",
+      "seed": 1,
+      "surfaceHintColour": 255,
+      "mappingFileTargetColour": "#FFFFFF",
+      "mappingFileColourInfluence": 90,
+      "ores": [{
+          "id": 1,
+          "p": 0.5,
+          "surfaceArea": 300
+        },
+        {
+          "id": 4,
+          "p": 0.5,
+          "surfaceArea": 300
+        },
+        {
+          "id": 8,
+          "p": 0.5,
+          "surfaceArea": 300
+        },
+        {
+          "id": 12,
+          "p": 0.5,
+          "surfaceArea": 300
+        },
+        {
+          "id": 16,
+          "p": 0.5,
+          "surfaceArea": 300
+        },
+        {
+          "id": 20,
+          "p": 0.5,
+          "surfaceArea": 300
+        },
+        {
+          "id": 24,
+          "p": 0.05,
+          "surfaceArea": 10
+        },
+        {
+          "id": 28,
+          "p": 0.05,
+          "surfaceArea": 10
+        },
+        {
+          "id": 32,
+          "p": 0.05,
+          "surfaceArea": 10
+        },
+        {
+          "id": 36,
+          "p": 0.05,
+          "surfaceArea": 10
+        },
+        {
+          "id": 40,
+          "p": 0.05,
+          "surfaceArea": 10
+        },
+        {
+          "id": 44,
+          "p": 0.05,
+          "surfaceArea": 10
+        },
+        {
+          "id": 48,
+          "p": 0.05,
+          "surfaceArea": 10
+        },
+        {
+          "id": 52,
+          "p": 0.05,
+          "surfaceArea": 10
+        },
+        {
+          "id": 56,
+          "p": 0.05,
+          "surfaceArea": 10
+        },
+        {
+          "id": 60,
+          "p": 0.05,
+          "surfaceArea": 10
+        },
+        {
+          "id": 64,
+          "p": 0.05,
+          "surfaceArea": 10
+        },
+        {
+          "id": 68,
+          "p": 0.05,
+          "surfaceArea": 10
+        },
+        {
+          "id": 72,
+          "p": 0.005,
+          "surfaceArea": 10
+        },
+        {
+          "id": 76,
+          "p": 0.005,
+          "surfaceArea": 10
+        },
+        {
+          "id": 80,
+          "p": 0.005,
+          "surfaceArea": 10
+        },
+        {
+          "id": 84,
+          "p": 0.005,
+          "surfaceArea": 10
+        },
+        {
+          "id": 88,
+          "p": 0.005,
+          "surfaceArea": 10
+        },
+        {
+          "id": 92,
+          "p": 0.005,
+          "surfaceArea": 10
+        },
+        {
+          "id": 96
+        },
+        {
+          "id": 100
+        },
+        {
+          "id": 104
+        },
+        {
+          "id": 108
+        },
+        {
+          "id": 112
+        },
+        {
+          "id": 116
+        },
+        {
+          "id": 120,
+          "p": 0.1
+        },
+        {
+          "id": 124,
+          "p": 0.1
+        },
+        {
+          "id": 128,
+          "p": 0.1
+        },
+        {
+          "id": 132,
+          "p": 0.8
+        },
+        {
+          "id": 136,
+          "p": 0.8
+        },
+        {
+          "id": 140,
+          "p": 0.8
+        },
+        {
+          "id": 144
+        },
+        {
+          "id": 148
+        },
+        {
+          "id": 152
+        },
+        {
+          "id": 156
+        },
+        {
+          "id": 160
+        },
+        {
+          "id": 164
+        },
+        {
+          "id": 168
+        },
+        {
+          "id": 172
+        },
+        {
+          "id": 176
+        },
+        {
+          "id": 180
+        },
+        {
+          "id": 184
+        },
+        {
+          "id": 188
+        },
+        {
+          "id": 192,
+          "p": 0.6,
+          "surfaceArea": 25
+        },
+        {
+          "id": 196,
+          "p": 0.6,
+          "surfaceArea": 25
+        },
+        {
+          "id": 208,
+          "p": 0.6,
+          "surfaceArea": 25
+        },
+        {
+          "id": 212,
+          "p": 0.6,
+          "surfaceArea": 25
+        },
+        {
+          "id": 217,
+          "p": 0.6,
+          "surfaceArea": 25
+        },
+        {
+          "id": 222,
+          "p": 0.6,
+          "surfaceArea": 25
+        }
+      ]
+    },
+    {
+      "name": "Europa",
+      "seed": 1,
+      "surfaceHintColour": 255,
+      "mappingFileTargetColour": "#FFFFFF",
+      "mappingFileColourInfluence": 90,
+      "ores": [{
+          "id": 1,
+          "p": 0.1
+        },
+        {
+          "id": 4,
+          "p": 0.1
+        },
+        {
+          "id": 8,
+          "p": 0.1
+        },
+        {
+          "id": 12,
+          "p": 0.1
+        },
+        {
+          "id": 16,
+          "p": 0.1
+        },
+        {
+          "id": 20,
+          "p": 0.1
+        },
+        {
+          "id": 24,
+          "p": 0.05
+        },
+        {
+          "id": 28,
+          "p": 0.05
+        },
+        {
+          "id": 32,
+          "p": 0.05
+        },
+        {
+          "id": 36,
+          "p": 0.05
+        },
+        {
+          "id": 40,
+          "p": 0.05
+        },
+        {
+          "id": 44,
+          "p": 0.05
+        },
+        {
+          "id": 48,
+          "p": 0.05
+        },
+        {
+          "id": 52,
+          "p": 0.05
+        },
+        {
+          "id": 56,
+          "p": 0.05
+        },
+        {
+          "id": 60,
+          "p": 0.05
+        },
+        {
+          "id": 64,
+          "p": 0.05
+        },
+        {
+          "id": 68,
+          "p": 0.05
+        },
+        {
+          "id": 72
+        },
+        {
+          "id": 76
+        },
+        {
+          "id": 80
+        },
+        {
+          "id": 84
+        },
+        {
+          "id": 88
+        },
+        {
+          "id": 92
+        },
+        {
+          "id": 96,
+          "p": 0.2
+        },
+        {
+          "id": 100,
+          "p": 0.2
+        },
+        {
+          "id": 104,
+          "p": 0.2
+        },
+        {
+          "id": 108,
+          "p": 0.2
+        },
+        {
+          "id": 112,
+          "p": 0.2
+        },
+        {
+          "id": 116,
+          "p": 0.2
+        },
+        {
+          "id": 120,
+          "p": 0.6
+        },
+        {
+          "id": 124,
+          "p": 0.7
+        },
+        {
+          "id": 128,
+          "p": 0.7
+        },
+        {
+          "id": 132
+        },
+        {
+          "id": 136
+        },
+        {
+          "id": 140
+        },
+        {
+          "id": 144,
+          "p": 0.01
+        },
+        {
+          "id": 148,
+          "p": 0.01
+        },
+        {
+          "id": 152,
+          "p": 0.01
+        },
+        {
+          "id": 156,
+          "p": 0.01
+        },
+        {
+          "id": 160,
+          "p": 0.01
+        },
+        {
+          "id": 164,
+          "p": 0.01
+        },
+        {
+          "id": 168
+        },
+        {
+          "id": 172
+        },
+        {
+          "id": 176
+        },
+        {
+          "id": 180
+        },
+        {
+          "id": 184
+        },
+        {
+          "id": 188
+        },
+        {
+          "id": 192
+        },
+        {
+          "id": 196
+        },
+        {
+          "id": 208
+        },
+        {
+          "id": 212
+        },
+        {
+          "id": 217
+        },
+        {
+          "id": 222
+        }
+      ]
+    },
+    {
+      "name": "Alien",
+      "seed": 1,
+      "surfaceHintColour": 255,
+      "mappingFileTargetColour": "#FFFFFF",
+      "mappingFileColourInfluence": 90,
+      "maxOreTiles": 50000,
+      "ores": [{
+          "id": 1
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 12
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 20
+        },
+        {
+          "id": 24
+        },
+        {
+          "id": 28
+        },
+        {
+          "id": 32
+        },
+        {
+          "id": 36
+        },
+        {
+          "id": 40
+        },
+        {
+          "id": 44
+        },
+        {
+          "id": 48
+        },
+        {
+          "id": 52
+        },
+        {
+          "id": 56
+        },
+        {
+          "id": 60
+        },
+        {
+          "id": 64
+        },
+        {
+          "id": 68
+        },
+        {
+          "id": 72
+        },
+        {
+          "id": 76
+        },
+        {
+          "id": 80
+        },
+        {
+          "id": 84
+        },
+        {
+          "id": 88
+        },
+        {
+          "id": 92
+        },
+        {
+          "id": 96
+        },
+        {
+          "id": 100
+        },
+        {
+          "id": 104
+        },
+        {
+          "id": 108
+        },
+        {
+          "id": 112
+        },
+        {
+          "id": 116
+        },
+        {
+          "id": 120
+        },
+        {
+          "id": 124
+        },
+        {
+          "id": 128
+        },
+        {
+          "id": 132,
+          "p": 20.0
+        },
+        {
+          "id": 136,
+          "p": 20.0
+        },
+        {
+          "id": 140,
+          "p": 20.0
+        },
+        {
+          "id": 144,
+          "p": 20.0,
+          "surfaceArea": 25
+        },
+        {
+          "id": 148,
+          "p": 20.0,
+          "surfaceArea": 25
+        },
+        {
+          "id": 152,
+          "p": 20.0,
+          "surfaceArea": 25
+        },
+        {
+          "id": 156,
+          "p": 20.0,
+          "surfaceArea": 25
+        },
+        {
+          "id": 160,
+          "p": 20.0,
+          "surfaceArea": 25
+        },
+        {
+          "id": 164,
+          "p": 20.0,
+          "surfaceArea": 25
+        },
+        {
+          "id": 168,
+          "p": 0.4
+        },
+        {
+          "id": 172,
+          "p": 0.4
+        },
+        {
+          "id": 176,
+          "p": 0.4
+        },
+        {
+          "id": 180,
+          "p": 0.4
+        },
+        {
+          "id": 184,
+          "p": 0.4
+        },
+        {
+          "id": 188,
+          "p": 0.4
+        },
+        {
+          "id": 192
+        },
+        {
+          "id": 196
+        },
+        {
+          "id": 208
+        },
+        {
+          "id": 212
+        },
+        {
+          "id": 217
+        },
+        {
+          "id": 222
+        }
+      ]
+    },
+    {
+      "name": "Titan",
+      "seed": 1,
+      "surfaceHintColour": 255,
+      "mappingFileTargetColour": "#FFFFFF",
+      "mappingFileColourInfluence": 90,
+      "ores": [
+        {
+          "id": 1,
+          "p": 0.2
+        },
+        {
+          "id": 4,
+          "p": 0.2
+        },
+        {
+          "id": 8,
+          "p": 0.2
+        },
+        {
+          "id": 12,
+          "p": 0.2
+        },
+        {
+          "id": 16,
+          "p": 0.2
+        },
+        {
+          "id": 20,
+          "p": 0.2
+        },
+        {
+          "id": 24,
+          "p": 0.7
+        },
+        {
+          "id": 28,
+          "p": 0.7
+        },
+        {
+          "id": 32,
+          "p": 0.7
+        },
+        {
+          "id": 36,
+          "p": 0.7
+        },
+        {
+          "id": 40,
+          "p": 0.7
+        },
+        {
+          "id": 48,
+          "p": 0.2
+        },
+        {
+          "id": 52,
+          "p": 0.2
+        },
+        {
+          "id": 56,
+          "p": 0.2
+        },
+        {
+          "id": 60,
+          "p": 0.2
+        },
+        {
+          "id": 64,
+          "p": 0.2
+        },
+        {
+          "id": 68,
+          "p": 0.2
+        },
+        {
+          "id": 72
+        },
+        {
+          "id": 76
+        },
+        {
+          "id": 80
+        },
+        {
+          "id": 84
+        },
+        {
+          "id": 88
+        },
+        {
+          "id": 92
+        },
+        {
+          "id": 96,
+          "p": 0.2
+        },
+        {
+          "id": 100,
+          "p": 0.2
+        },
+        {
+          "id": 104,
+          "p": 0.2
+        },
+        {
+          "id": 108,
+          "p": 0.2
+        },
+        {
+          "id": 112,
+          "p": 0.2
+        },
+        {
+          "id": 116,
+          "p": 0.2
+        },
+        {
+          "id": 120
+        },
+        {
+          "id": 124
+        },
+        {
+          "id": 128
+        },
+        {
+          "id": 132
+        },
+        {
+          "id": 136
+        },
+        {
+          "id": 140
+        },
+        {
+          "id": 144,
+          "p": 0.1,
+          "surfaceArea": 5
+        },
+        {
+          "id": 148,
+          "p": 0.1,
+          "surfaceArea": 5
+        },
+        {
+          "id": 152,
+          "p": 0.1,
+          "surfaceArea": 5
+        },
+        {
+          "id": 156,
+          "p": 0.1,
+          "surfaceArea": 5
+        },
+        {
+          "id": 160,
+          "p": 0.1,
+          "surfaceArea": 5
+        },
+        {
+          "id": 164,
+          "p": 0.1,
+          "surfaceArea": 5
+        },
+        {
+          "id": 168
+        },
+        {
+          "id": 172
+        },
+        {
+          "id": 176
+        },
+        {
+          "id": 180
+        },
+        {
+          "id": 184
+        },
+        {
+          "id": 188
+        },
+        {
+          "id": 192,
+          "p": 0.3
+        },
+        {
+          "id": 196,
+          "p": 0.3
+        },
+        {
+          "id": 208,
+          "p": 0.3
+        },
+        {
+          "id": 212,
+          "p": 0.3
+        },
+        {
+          "id": 217,
+          "p": 0.3
+        },
+        {
+          "id": 222,
+          "p": 0.3
+        }
+      ]
+    },
+    {
+      "name": "Triton",
+      "seed": 1,
+      "surfaceHintMaps": false,
+      "ores": [
+        {
+          "id": 1,
+          "p": 0.2
+        },
+        {
+          "id": 4,
+          "p": 0.2
+        },
+        {
+          "id": 8,
+          "p": 0.2
+        },
+        {
+          "id": 12,
+          "p": 0.2
+        },
+        {
+          "id": 16,
+          "p": 0.2
+        },
+        {
+          "id": 20,
+          "p": 0.2
+        },
+        {
+          "id": 24,
+          "p": 0.2
+        },
+        {
+          "id": 28,
+          "p": 0.2
+        },
+        {
+          "id": 32,
+          "p": 0.2
+        },
+        {
+          "id": 36,
+          "p": 0.2
+        },
+        {
+          "id": 40,
+          "p": 0.2
+        },
+        {
+          "id": 44,
+          "p": 0.2
+        },
+        {
+          "id": 48,
+          "p": 0.2
+        },
+        {
+          "id": 52,
+          "p": 0.2
+        },
+        {
+          "id": 56,
+          "p": 0.2
+        },
+        {
+          "id": 60,
+          "p": 0.2
+        },
+        {
+          "id": 64,
+          "p": 0.2
+        },
+        {
+          "id": 68,
+          "p": 0.2
+        },
+        {
+          "id": 72,
+          "p": 0.2
+        },
+        {
+          "id": 76,
+          "p": 0.2
+        },
+        {
+          "id": 80,
+          "p": 0.2
+        },
+        {
+          "id": 84,
+          "p": 0.2
+        },
+        {
+          "id": 88,
+          "p": 0.2
+        },
+        {
+          "id": 92,
+          "p": 0.2
+        },
+        {
+          "id": 96,
+          "p": 0.2
+        },
+        {
+          "id": 100,
+          "p": 0.2
+        },
+        {
+          "id": 104,
+          "p": 0.2
+        },
+        {
+          "id": 108,
+          "p": 0.2
+        },
+        {
+          "id": 112,
+          "p": 0.2
+        },
+        {
+          "id": 116,
+          "p": 0.2
+        },
+        {
+          "id": 120,
+          "p": 0.2
+        },
+        {
+          "id": 124,
+          "p": 0.2
+        },
+        {
+          "id": 128,
+          "p": 0.2
+        },
+        {
+          "id": 132
+        },
+        {
+          "id": 136
+        },
+        {
+          "id": 140
+        },
+        {
+          "id": 144,
+          "p": 0.08
+        },
+        {
+          "id": 148,
+          "p": 0.08
+        },
+        {
+          "id": 152,
+          "p": 0.08
+        },
+        {
+          "id": 156,
+          "p": 0.08
+        },
+        {
+          "id": 160,
+          "p": 0.08
+        },
+        {
+          "id": 164,
+          "p": 0.08
+        },
+        {
+          "id": 168,
+          "p": 0.2
+        },
+        {
+          "id": 172,
+          "p": 0.2
+        },
+        {
+          "id": 176,
+          "p": 0.2
+        },
+        {
+          "id": 180,
+          "p": 0.2
+        },
+        {
+          "id": 184,
+          "p": 0.2
+        },
+        {
+          "id": 188,
+          "p": 0.2
+        },
+        {
+          "id": 192
+        },
+        {
+          "id": 196
+        },
+        {
+          "id": 208
+        },
+        {
+          "id": 212
+        },
+        {
+          "id": 217
+        },
+        {
+          "id": 222
+        }
+      ]
+    },
+    {
+      "name": "Rai",
+      "seed": 1,
+      "surfaceHintColour": 255,
+      "mappingFileTargetColour": "#FFFFFF",
+      "mappingFileColourInfluence": 90,
+      "ores": [{
+          "id": 1,
+          "p": 0.1
+        },
+        {
+          "id": 4,
+          "p": 0.1
+        },
+        {
+          "id": 8,
+          "p": 0.1
+        },
+        {
+          "id": 12,
+          "p": 0.1
+        },
+        {
+          "id": 16,
+          "p": 0.1
+        },
+        {
+          "id": 20,
+          "p": 0.1
+        },
+        {
+          "id": 24,
+          "p": 0.05
+        },
+        {
+          "id": 28,
+          "p": 0.05
+        },
+        {
+          "id": 32,
+          "p": 0.05
+        },
+        {
+          "id": 36,
+          "p": 0.05
+        },
+        {
+          "id": 40,
+          "p": 0.05
+        },
+        {
+          "id": 44,
+          "p": 0.05
+        },
+        {
+          "id": 48,
+          "p": 0.3
+        },
+        {
+          "id": 52,
+          "p": 0.3
+        },
+        {
+          "id": 56,
+          "p": 0.3
+        },
+        {
+          "id": 60,
+          "p": 0.3
+        },
+        {
+          "id": 64,
+          "p": 0.3
+        },
+        {
+          "id": 68,
+          "p": 0.3
+        },
+        {
+          "id": 72,
+          "p": 0.05
+        },
+        {
+          "id": 76,
+          "p": 0.05
+        },
+        {
+          "id": 80,
+          "p": 0.05
+        },
+        {
+          "id": 84,
+          "p": 0.05
+        },
+        {
+          "id": 88,
+          "p": 0.05
+        },
+        {
+          "id": 92,
+          "p": 0.05
+        },
+        {
+          "id": 96,
+          "p": 0.2
+        },
+        {
+          "id": 100,
+          "p": 0.2
+        },
+        {
+          "id": 104,
+          "p": 0.2
+        },
+        {
+          "id": 108,
+          "p": 0.2
+        },
+        {
+          "id": 112,
+          "p": 0.2
+        },
+        {
+          "id": 116,
+          "p": 0.2
+        },
+        {
+          "id": 120,
+          "p": 0.05
+        },
+        {
+          "id": 124,
+          "p": 0.05
+        },
+        {
+          "id": 128,
+          "p": 0.05
+        },
+        {
+          "id": 132,
+          "p": 0.6
+        },
+        {
+          "id": 136,
+          "p": 0.6
+        },
+        {
+          "id": 140,
+          "p": 0.6
+        },
+        {
+          "id": 144,
+          "p": 0.05
+        },
+        {
+          "id": 148,
+          "p": 0.05
+        },
+        {
+          "id": 152,
+          "p": 0.05
+        },
+        {
+          "id": 156,
+          "p": 0.05
+        },
+        {
+          "id": 160,
+          "p": 0.05
+        },
+        {
+          "id": 164,
+          "p": 0.05
+        },
+        {
+          "id": 168,
+          "p": 0.1
+        },
+        {
+          "id": 172,
+          "p": 0.1
+        },
+        {
+          "id": 176,
+          "p": 0.1
+        },
+        {
+          "id": 180,
+          "p": 0.1
+        },
+        {
+          "id": 184,
+          "p": 0.1
+        },
+        {
+          "id": 188,
+          "p": 0.1
+        },
+        {
+          "id": 192,
+          "p": 0.005
+        },
+        {
+          "id": 196,
+          "p": 0.005
+        },
+        {
+          "id": 208,
+          "p": 0.005
+        },
+        {
+          "id": 212,
+          "p": 0.005
+        },
+        {
+          "id": 217,
+          "p": 0.005
+        },
+        {
+          "id": 222,
+          "p": 0.005
+        }
+      ]
+    },
+    {
+      "name": "Jericu",
+      "seed": 1,
+      "surfaceHintColour": 255,
+      "mappingFileTargetColour": "#FFFFFF",
+      "mappingFileColourInfluence": 90,
+      "ores": [{
+          "id": 1,
+          "p": 0.1
+        },
+        {
+          "id": 4,
+          "p": 0.1
+        },
+        {
+          "id": 8,
+          "p": 0.1
+        },
+        {
+          "id": 12,
+          "p": 0.1
+        },
+        {
+          "id": 16,
+          "p": 0.1
+        },
+        {
+          "id": 20,
+          "p": 0.1
+        },
+        {
+          "id": 24,
+          "p": 0.05
+        },
+        {
+          "id": 28,
+          "p": 0.05
+        },
+        {
+          "id": 32,
+          "p": 0.05
+        },
+        {
+          "id": 36,
+          "p": 0.05
+        },
+        {
+          "id": 40,
+          "p": 0.05
+        },
+        {
+          "id": 44,
+          "p": 0.05
+        },
+        {
+          "id": 48,
+          "p": 0.05
+        },
+        {
+          "id": 52,
+          "p": 0.05
+        },
+        {
+          "id": 56,
+          "p": 0.05
+        },
+        {
+          "id": 60,
+          "p": 0.05
+        },
+        {
+          "id": 64,
+          "p": 0.05
+        },
+        {
+          "id": 68,
+          "p": 0.05
+        },
+        {
+          "id": 72
+        },
+        {
+          "id": 76
+        },
+        {
+          "id": 80
+        },
+        {
+          "id": 84
+        },
+        {
+          "id": 88
+        },
+        {
+          "id": 92
+        },
+        {
+          "id": 96,
+          "p": 0.2
+        },
+        {
+          "id": 100,
+          "p": 0.2
+        },
+        {
+          "id": 104,
+          "p": 0.2
+        },
+        {
+          "id": 108,
+          "p": 0.2
+        },
+        {
+          "id": 112,
+          "p": 0.2
+        },
+        {
+          "id": 116,
+          "p": 0.2
+        },
+        {
+          "id": 120,
+          "p": 0.6
+        },
+        {
+          "id": 124,
+          "p": 0.6
+        },
+        {
+          "id": 128,
+          "p": 0.6
+        },
+        {
+          "id": 132
+        },
+        {
+          "id": 136
+        },
+        {
+          "id": 140
+        },
+        {
+          "id": 144,
+          "p": 0.01
+        },
+        {
+          "id": 148,
+          "p": 0.01
+        },
+        {
+          "id": 152,
+          "p": 0.01
+        },
+        {
+          "id": 156,
+          "p": 0.01
+        },
+        {
+          "id": 160,
+          "p": 0.01
+        },
+        {
+          "id": 164,
+          "p": 0.01
+        },
+        {
+          "id": 168,
+          "p": 0.2
+        },
+        {
+          "id": 172,
+          "p": 0.2
+        },
+        {
+          "id": 176,
+          "p": 0.2
+        },
+        {
+          "id": 180,
+          "p": 0.2
+        },
+        {
+          "id": 184,
+          "p": 0.2
+        },
+        {
+          "id": 188,
+          "p": 0.2
+        },
+        {
+          "id": 192,
+          "p": 0.01
+        },
+        {
+          "id": 196,
+          "p": 0.01
+        },
+        {
+          "id": 208,
+          "p": 0.01
+        },
+        {
+          "id": 212,
+          "p": 0.01
+        },
+        {
+          "id": 217,
+          "p": 0.01
+        },
+        {
+          "id": 222,
+          "p": 0.01
+        }
+      ]
+    },
+    {
+      "name": "Paradise",
+      "seed": 1,
+      "surfaceHintColour": 255,
+      "mappingFileTargetColour": "#FFFFFF",
+      "mappingFileColourInfluence": 90,
+      "ores": [{
+          "id": 1,
+          "p": 0.4
+        },
+        {
+          "id": 4,
+          "p": 0.4
+        },
+        {
+          "id": 8,
+          "p": 0.4
+        },
+        {
+          "id": 12,
+          "p": 0.4
+        },
+        {
+          "id": 16,
+          "p": 0.4
+        },
+        {
+          "id": 20,
+          "p": 0.4
+        },
+        {
+          "id": 24,
+          "p": 0.2
+        },
+        {
+          "id": 28,
+          "p": 0.2
+        },
+        {
+          "id": 32,
+          "p": 0.2
+        },
+        {
+          "id": 36,
+          "p": 0.2
+        },
+        {
+          "id": 40,
+          "p": 0.2
+        },
+        {
+          "id": 44,
+          "p": 0.2
+        },
+        {
+          "id": 48,
+          "p": 0.2
+        },
+        {
+          "id": 52,
+          "p": 0.2
+        },
+        {
+          "id": 56,
+          "p": 0.2
+        },
+        {
+          "id": 60,
+          "p": 0.2
+        },
+        {
+          "id": 64,
+          "p": 0.2
+        },
+        {
+          "id": 68,
+          "p": 0.2
+        },
+        {
+          "id": 72,
+          "p": 0.4
+        },
+        {
+          "id": 76,
+          "p": 0.4
+        },
+        {
+          "id": 80,
+          "p": 0.4
+        },
+        {
+          "id": 84,
+          "p": 0.4
+        },
+        {
+          "id": 88,
+          "p": 0.4
+        },
+        {
+          "id": 92,
+          "p": 0.4
+        },
+        {
+          "id": 96,
+          "p": 0.02
+        },
+        {
+          "id": 100,
+          "p": 0.02
+        },
+        {
+          "id": 104,
+          "p": 0.02
+        },
+        {
+          "id": 108,
+          "p": 0.02
+        },
+        {
+          "id": 112,
+          "p": 0.02
+        },
+        {
+          "id": 116,
+          "p": 0.02
+        },
+        {
+          "id": 120,
+          "p": 0.15
+        },
+        {
+          "id": 124,
+          "p": 0.15
+        },
+        {
+          "id": 128,
+          "p": 0.15
+        },
+        {
+          "id": 132,
+          "p": 0.40
+        },
+        {
+          "id": 136,
+          "p": 0.40
+        },
+        {
+          "id": 140,
+          "p": 0.40
+        },
+        {
+          "id": 144,
+          "p": 0.008
+        },
+        {
+          "id": 148,
+          "p": 0.008
+        },
+        {
+          "id": 152,
+          "p": 0.008
+        },
+        {
+          "id": 156,
+          "p": 0.008
+        },
+        {
+          "id": 160,
+          "p": 0.008
+        },
+        {
+          "id": 164,
+          "p": 0.008
+        },
+        {
+          "id": 168,
+          "p": 0.01
+        },
+        {
+          "id": 172,
+          "p": 0.01
+        },
+        {
+          "id": 176,
+          "p": 0.01
+        },
+        {
+          "id": 180,
+          "p": 0.01
+        },
+        {
+          "id": 184,
+          "p": 0.01
+        },
+        {
+          "id": 188,
+          "p": 0.01
+        },
+        {
+          "id": 192,
+          "p": 0.005
+        },
+        {
+          "id": 196,
+          "p": 0.005
+        },
+        {
+          "id": 208,
+          "p": 0.005
+        },
+        {
+          "id": 212,
+          "p": 0.005
+        },
+        {
+          "id": 217,
+          "p": 0.005
+        },
+        {
+          "id": 222,
+          "p": 0.005
+        }
+      ]
+    },
+    {
+      "name": "Medieval",
+      "seed": 1,
+      "surfaceHintColour": 255,
+      "mappingFileTargetColour": "#FFFFFF",
+      "mappingFileColourInfluence": 90,
+      "ores": [{
+          "id": 1,
+          "p": 0.4
+        },
+        {
+          "id": 4,
+          "p": 0.4
+        },
+        {
+          "id": 8,
+          "p": 0.4
+        },
+        {
+          "id": 12,
+          "p": 0.4
+        },
+        {
+          "id": 16,
+          "p": 0.4
+        },
+        {
+          "id": 20,
+          "p": 0.4
+        },
+        {
+          "id": 24,
+          "p": 0.2
+        },
+        {
+          "id": 28,
+          "p": 0.2
+        },
+        {
+          "id": 32,
+          "p": 0.2
+        },
+        {
+          "id": 36,
+          "p": 0.2
+        },
+        {
+          "id": 40,
+          "p": 0.2
+        },
+        {
+          "id": 44,
+          "p": 0.2
+        },
+        {
+          "id": 48,
+          "p": 0.2
+        },
+        {
+          "id": 52,
+          "p": 0.2
+        },
+        {
+          "id": 56,
+          "p": 0.2
+        },
+        {
+          "id": 60,
+          "p": 0.2
+        },
+        {
+          "id": 64,
+          "p": 0.2
+        },
+        {
+          "id": 68,
+          "p": 0.2
+        },
+        {
+          "id": 72,
+          "p": 0.4
+        },
+        {
+          "id": 76,
+          "p": 0.4
+        },
+        {
+          "id": 80,
+          "p": 0.4
+        },
+        {
+          "id": 84,
+          "p": 0.4
+        },
+        {
+          "id": 88,
+          "p": 0.4
+        },
+        {
+          "id": 92,
+          "p": 0.4
+        },
+        {
+          "id": 96,
+          "p": 0.02
+        },
+        {
+          "id": 100,
+          "p": 0.02
+        },
+        {
+          "id": 104,
+          "p": 0.02
+        },
+        {
+          "id": 108,
+          "p": 0.02
+        },
+        {
+          "id": 112,
+          "p": 0.02
+        },
+        {
+          "id": 116,
+          "p": 0.02
+        },
+        {
+          "id": 120,
+          "p": 0.15
+        },
+        {
+          "id": 124,
+          "p": 0.15
+        },
+        {
+          "id": 128,
+          "p": 0.15
+        },
+        {
+          "id": 132,
+          "p": 0.40
+        },
+        {
+          "id": 136,
+          "p": 0.40
+        },
+        {
+          "id": 140,
+          "p": 0.40
+        },
+        {
+          "id": 144,
+          "p": 0.008
+        },
+        {
+          "id": 148,
+          "p": 0.008
+        },
+        {
+          "id": 152,
+          "p": 0.008
+        },
+        {
+          "id": 156,
+          "p": 0.008
+        },
+        {
+          "id": 160,
+          "p": 0.008
+        },
+        {
+          "id": 164,
+          "p": 0.008
+        },
+        {
+          "id": 168,
+          "p": 0.01
+        },
+        {
+          "id": 172,
+          "p": 0.01
+        },
+        {
+          "id": 176,
+          "p": 0.01
+        },
+        {
+          "id": 180,
+          "p": 0.01
+        },
+        {
+          "id": 184,
+          "p": 0.01
+        },
+        {
+          "id": 188,
+          "p": 0.01
+        },
+        {
+          "id": 192
+        },
+        {
+          "id": 196
+        },
+        {
+          "id": 208
+        },
+        {
+          "id": 212
+        },
+        {
+          "id": 217
+        },
+        {
+          "id": 222
+        }
+      ]
+    }
+  ]
+}
