@@ -1947,9 +1947,7 @@
     {
       "name": "Rai",
       "seed": 1,
-      "surfaceHintColour": 255,
-      "mappingFileTargetColour": "#FFFFFF",
-      "mappingFileColourInfluence": 90,
+      "surfaceHintMaps": false,
       "ores": [{
           "id": 1,
           "p": 0.1
@@ -2168,9 +2166,7 @@
     {
       "name": "Jericu",
       "seed": 1,
-      "surfaceHintColour": 255,
-      "mappingFileTargetColour": "#FFFFFF",
-      "mappingFileColourInfluence": 90,
+      "surfaceHintMaps": false,
       "ores": [
         {
           "id": 1,
@@ -2384,9 +2380,7 @@
     {
       "name": "Paradise",
       "seed": 1,
-      "surfaceHintColour": 255,
-      "mappingFileTargetColour": "#FFFFFF",
-      "mappingFileColourInfluence": 90,
+      "surfaceHintMaps": false,
       "ores": [{
           "id": 1,
           "p": 0.4
