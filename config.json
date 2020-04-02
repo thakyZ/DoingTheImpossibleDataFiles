@@ -1,7 +1,7 @@
 {
   "planetDataPath": "D:\\Modding\\Tools\\SpaceEngineers\\ProceduralOreGenerator\\PlanetDataFiles-old\\PlanetDataFiles",
-  "planetGeneratorDefinitionsPath": "D:\\Modding\\Tools\\SpaceEngineers\\ProceduralOreGenerator\\PlanetDataFiles-old\\PlanetGeneratorDefinitions.sbc",
   "planetDataOutputPath": "D:\\Modding\\Tools\\SpaceEngineers\\ProceduralOreGenerator\\PlanetDataFiles-deep_ores\\PlanetDataFiles",
+  "planetGeneratorDefinitionsPath": "D:\\Modding\\Tools\\SpaceEngineers\\ProceduralOreGenerator\\PlanetDataFiles-old\\PlanetGeneratorDefinitions.sbc",
   "planetGeneratorDefinitionsOutputPath": "D:\\Modding\\Tools\\SpaceEngineers\\ProceduralOreGenerator\\PlanetDataFiles-deep_ores\\",
   "makeColouredMaps": true,
   "surfaceHintMaps": true,
@@ -446,11 +446,12 @@
   "planets": [
     {
       "name": "EarthLike",
-      "seed": 2,
+      "seed": 1,
       "surfaceHintColour": 255,
       "mappingFileTargetColour": "#FFFFFF",
       "mappingFileColourInfluence": 90,
-      "ores": [{
+      "ores": [
+        {
           "id": 1,
           "p": 0.4
         },
@@ -583,16 +584,13 @@
           "p": 0.15
         },
         {
-          "id": 132,
-          "p": 0.40
+          "id": 132
         },
         {
-          "id": 136,
-          "p": 0.40
+          "id": 136
         },
         {
-          "id": 140,
-          "p": 0.40
+          "id": 140
         },
         {
           "id": 144,
@@ -662,7 +660,8 @@
       "surfaceHintColour": 255,
       "mappingFileTargetColour": "#FFFFFF",
       "mappingFileColourInfluence": 90,
-      "ores": [{
+      "ores": [
+        {
           "id": 1,
           "p": 0.1
         },
@@ -891,7 +890,8 @@
       "surfaceHintColour": 255,
       "mappingFileTargetColour": "#FFFFFF",
       "mappingFileColourInfluence": 90,
-      "ores": [{
+      "ores": [
+        {
           "id": 1,
           "p": 0.5,
           "surfaceArea": 300
@@ -1127,7 +1127,8 @@
       "surfaceHintColour": 255,
       "mappingFileTargetColour": "#FFFFFF",
       "mappingFileColourInfluence": 90,
-      "ores": [{
+      "ores": [
+        {
           "id": 1,
           "p": 0.1
         },
@@ -1247,11 +1248,11 @@
         },
         {
           "id": 124,
-          "p": 0.7
+          "p": 0.6
         },
         {
           "id": 128,
-          "p": 0.7
+          "p": 0.6
         },
         {
           "id": 132
@@ -1331,7 +1332,8 @@
       "mappingFileTargetColour": "#FFFFFF",
       "mappingFileColourInfluence": 90,
       "maxOreTiles": 50000,
-      "ores": [{
+      "ores": [
+        {
           "id": 1
         },
         {
@@ -1431,16 +1433,13 @@
           "id": 128
         },
         {
-          "id": 132,
-          "p": 20.0
+          "id": 132
         },
         {
-          "id": 136,
-          "p": 20.0
+          "id": 136
         },
         {
-          "id": 140,
-          "p": 20.0
+          "id": 140
         },
         {
           "id": 144,
@@ -1920,22 +1919,28 @@
           "p": 0.2
         },
         {
-          "id": 192
+          "id": 192,
+					"p": 0.2
         },
         {
-          "id": 196
+          "id": 196,
+					"p": 0.2
         },
         {
-          "id": 208
+          "id": 208,
+					"p": 0.2
         },
         {
-          "id": 212
+          "id": 212,
+					"p": 0.2
         },
         {
-          "id": 217
+          "id": 217,
+					"p": 0.2
         },
         {
-          "id": 222
+          "id": 222,
+					"p": 0.2
         }
       ]
     },
@@ -2078,16 +2083,13 @@
           "p": 0.05
         },
         {
-          "id": 132,
-          "p": 0.6
+          "id": 132
         },
         {
-          "id": 136,
-          "p": 0.6
+          "id": 136
         },
         {
-          "id": 140,
-          "p": 0.6
+          "id": 140
         },
         {
           "id": 144,
@@ -2169,7 +2171,8 @@
       "surfaceHintColour": 255,
       "mappingFileTargetColour": "#FFFFFF",
       "mappingFileColourInfluence": 90,
-      "ores": [{
+      "ores": [
+        {
           "id": 1,
           "p": 0.1
         },
@@ -2517,16 +2520,13 @@
           "p": 0.15
         },
         {
-          "id": 132,
-          "p": 0.40
+          "id": 132
         },
         {
-          "id": 136,
-          "p": 0.40
+          "id": 136
         },
         {
-          "id": 140,
-          "p": 0.40
+          "id": 140
         },
         {
           "id": 144,
@@ -2741,16 +2741,13 @@
           "p": 0.15
         },
         {
-          "id": 132,
-          "p": 0.40
+          "id": 132
         },
         {
-          "id": 136,
-          "p": 0.40
+          "id": 136
         },
         {
-          "id": 140,
-          "p": 0.40
+          "id": 140
         },
         {
           "id": 144,
