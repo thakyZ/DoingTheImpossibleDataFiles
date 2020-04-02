@@ -1,10 +1,14 @@
 {
-	"planetDataPath": "D:\\Modding\\Tools\\SpaceEngineers\\ProceduralOreGenerator\\PlanetDataFiles-old",
-	"planetGeneratorDefinitionsPath": "D:\\Modding\\Tools\\SpaceEngineers\\ProceduralOreGenerator\\PlanetGeneratorDefinitions-do_the_impossible.sbc",
+	"planetDataPath": "D:\\Modding\\Tools\\SpaceEngineers\\ProceduralOreGenerator\\PlanetDataFiles-old\\PlanetDataFiles",
+  "planetDataOutputPath": "D:\\Modding\\Tools\\SpaceEngineers\\ProceduralOreGenerator\\PlanetDataFiles-do_the_impossible\\PlanetDataFiles",
+	"planetGeneratorDefinitionsPath": "D:\\Modding\\Tools\\SpaceEngineers\\ProceduralOreGenerator\\PlanetDataFiles-old\\PlanetGeneratorDefinitions.sbc",
+  "planetGeneratorDefinitionsOutputPath": "D:\\Modding\\Tools\\SpaceEngineers\\ProceduralOreGenerator\\PlanetDataFiles-do_the_impossible\\",
 	"makeColouredMaps": true,
 	"surfaceHintMaps": true,
-	"shape": 1,
+	"shape": 2,
 	"density": 0.9,
+  "maxOreTiles": 100000,
+  "maxOrePatches": 1000,
   "oreTemplates": [
 		{
 			"id": 1,
@@ -25,7 +29,7 @@
 		{
 			"id": 48,
 			"type": "Silicon_01",
-			"surfaceArea": 80,
+			"surfaceArea": 30,
 			"startDepth": 18,
 			"depth": 6,
 			"testColourHex": "FFFFFF"
@@ -33,7 +37,7 @@
 		{
 			"id": 72,
 			"type": "Cobalt_01",
-			"surfaceArea": 80,
+			"surfaceArea": 30,
 			"startDepth": 40,
 			"depth": 5,
 			"testColourHex": "0033FF"
@@ -54,11 +58,18 @@
 			"depth": 6,
 			"testColourHex": "958CFF"
 		},
+    {
+      "id": 132,
+      "type": "Ice_01",
+      "surfaceArea": 120,
+      "startDepth": 513,
+      "depth": 307,
+      "testColourHex": "8CCAFF"
+    },
 		{
 			"id": 144,
 			"type": "Uraninite_01",
 			"surfaceArea": 7,
-			"density": 0.7,
 			"startDepth": 70,
 			"depth": 4,
 			"testColourHex": "00FF00"
@@ -66,7 +77,7 @@
 		{
 			"id": 168,
 			"type": "Gold_01",
-			"surfaceArea": 5,
+			"surfaceArea": 20,
 			"startDepth": 55,
 			"depth": 4,
 			"testColourHex": "FFD800"
@@ -84,8 +95,10 @@
 	"planets": [
 		{
 			"name": "EarthLike",
-			"seed": 1,
-			"surfaceHintColour": 144,
+      "seed": 1,
+      "surfaceHintColour": 255,
+      "mappingFileTargetColour": "#FFFFFF",
+      "mappingFileColourInfluence": 90,
 			"ores": [
 				{
 					"id": 1,
@@ -111,6 +124,9 @@
 					"id": 120,
 					"p": 0.15
 				},
+        {
+          "id": 132
+        },
 				{
 					"id": 144,
 					"p": 0.008
@@ -125,8 +141,10 @@
 		},
 		{
 			"name": "Moon",
-			"seed": 2,
-			"surfaceHintColour": 176,
+      "seed": 1,
+      "surfaceHintColour": 255,
+      "mappingFileTargetColour": "#FFFFFF",
+      "mappingFileColourInfluence": 90,
 			"ores": [
 				{
 					"id": 1,
@@ -152,6 +170,10 @@
 					"id": 120,
 					"p": 0.05
 				},
+        {
+          "id": 132,
+          "p": 0.4
+        },
 				{
 					"id": 144
 				},
@@ -168,7 +190,10 @@
 		},
 		{
 			"name": "Mars",
-			"seed": 3,
+      "seed": 1,
+      "surfaceHintColour": 255,
+      "mappingFileTargetColour": "#FFFFFF",
+      "mappingFileColourInfluence": 90,
 			"ores": [
 				{
 					"id": 1,
@@ -197,6 +222,10 @@
 					"id": 120,
 					"p": 0.1
 				},
+        {
+          "id": 132,
+          "p": 0.8
+        },
 				{
 					"id": 144
 				},
@@ -212,7 +241,10 @@
 		},
 		{
 			"name": "Europa",
-			"seed": 4,
+      "seed": 1,
+      "surfaceHintColour": 255,
+      "mappingFileTargetColour": "#FFFFFF",
+      "mappingFileColourInfluence": 90,
 			"ores": [
 				{
 					"id": 1,
@@ -237,6 +269,9 @@
 					"id": 120,
 					"p": 0.6
 				},
+        {
+          "id": 132
+        },
 				{
 					"id": 144,
 					"p": 0.01
@@ -251,8 +286,10 @@
 		},
 		{
 			"name": "Alien",
-			"seed": 5,
-			"surfaceHintColour": 160,
+      "seed": 1,
+      "surfaceHintColour": 255,
+      "mappingFileTargetColour": "#FFFFFF",
+      "mappingFileColourInfluence": 90,
 			"maxOreTiles": 50000,
 			"ores": [
 				{
@@ -273,6 +310,9 @@
 				{
 					"id": 120
 				},
+        {
+          "id": 132
+        },
 				{
 					"id": 144,
 					"p": 1.0,
@@ -289,7 +329,10 @@
 		},
 		{
 			"name": "Titan",
-			"seed": 6,
+      "seed": 1,
+      "surfaceHintColour": 255,
+      "mappingFileTargetColour": "#FFFFFF",
+      "mappingFileColourInfluence": 90,
 			"ores": [
 				{
 					"id": 1,
@@ -313,6 +356,9 @@
 				{
 					"id": 120
 				},
+        {
+          "id": 132
+        },
 				{
 					"id": 144,
 					"p": 0.1,
@@ -328,8 +374,55 @@
 			]
 		},
 		{
+			"name": "Triton",
+      "seed": 1,
+      "surfaceHintMaps": false,
+			"ores": [
+				{
+					"id": 1,
+					"p": 0.2
+				},
+				{
+					"id": 24,
+					"p": 0.2
+				},
+				{
+					"id": 48,
+					"p": 0.2
+				},
+				{
+					"id": 72,
+          "p": 0.2
+				},
+				{
+					"id": 96,
+					"p": 0.2
+				},
+				{
+					"id": 120,
+					"p": 0.2
+				},
+        {
+          "id": 132
+        },
+				{
+					"id": 144,
+          "p": 0.08
+				},
+				{
+					"id": 168,
+					"p": 0.2
+				},
+				{
+					"id": 192,
+					"p": 0.2
+				}
+			]
+		},
+		{
 			"name": "Rai",
-			"seed": 123,
+      "seed": 1,
+      "surfaceHintMaps": false,
 			"ores": [
 				{
 					"id": 1,
@@ -355,6 +448,9 @@
 					"id": 120,
 					"p": 0.05
 				},
+        {
+          "id": 132
+        },
 				{
 					"id": 144,
           "p": 0.05
@@ -371,7 +467,8 @@
 		},
     {
 			"name": "Jericu",
-			"seed": 456,
+      "seed": 1,
+      "surfaceHintMaps": false,
 			"ores": [
 				{
 					"id": 1,
@@ -396,6 +493,9 @@
 					"id": 120,
 					"p": 0.6
 				},
+        {
+          "id": 132
+        },
 				{
 					"id": 144,
           "p": 0.01
@@ -412,7 +512,8 @@
 		},
     {
 			"name": "Paradise",
-			"seed": 789,
+      "seed": 1,
+      "surfaceHintMaps": false,
 			"ores": [
 				{
 					"id": 1,
@@ -438,6 +539,9 @@
 					"id": 120,
 					"p": 0.15
 				},
+        {
+          "id": 132
+        },
 				{
 					"id": 144,
 					"p": 0.008
@@ -454,7 +558,8 @@
 		},
     {
 			"name": "Medieval",
-			"seed": 478,
+      "seed": 1,
+      "surfaceHintMaps": false,
 			"ores": [
 				{
 					"id": 1,
@@ -480,6 +585,9 @@
 					"id": 120,
 					"p": 0.15
 				},
+        {
+          "id": 132
+        },
 				{
 					"id": 144,
 					"p": 0.008
