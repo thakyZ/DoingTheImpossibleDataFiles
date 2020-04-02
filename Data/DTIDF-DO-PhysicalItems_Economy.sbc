@@ -19,7 +19,7 @@
       <Model>Models\Items\Medkit_Item.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <Stats>
-        <Stat Name="Health" Value ="0.05" Time="5"/>
+        <Stat Name="Health" Value="0.05" Time="5"/>
       </Stats>
 
       <MinimalPricePerUnit>750</MinimalPricePerUnit>
@@ -45,7 +45,7 @@
       <Model>Models\Items\PowerKit.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <Stats>
-        <Stat Name="BatteryCharge" Value ="0.05" Time="5"/>
+        <Stat Name="BatteryCharge" Value="0.05" Time="5"/>
       </Stats>
 
       <MinimalPricePerUnit>1000</MinimalPricePerUnit>
