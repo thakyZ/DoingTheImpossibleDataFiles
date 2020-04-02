@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <CubeBlocks>
+        <!--        Tier 3-->
+        <!--Small Small Reactor-->
+        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>SmallBlockSmallGenerator4x</SubtypeId>
+            </Id>
+            <DisplayName>Proficient Reactor</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>Textures\nuclear_reactor4x.dds</Icon>
+            <Description>Description_Reactor</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Small\GeneratorSmall.mwm</Model>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="Tech4x" Count="7"/>
+                <Component Subtype="SteelPlate" Count="3"/>
+                <Component Subtype="Construction" Count="23"/>
+                <Component Subtype="MetalGrid" Count="5"/>
+                <Component Subtype="LargeTube" Count="3"/>
+                <Component Subtype="Reactor" Count="7"/>
+                <Component Subtype="Motor" Count="3"/>
+                <Component Subtype="Computer" Count="23"/>
+                <Component Subtype="SteelPlate" Count="5"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>SmallReactor4x</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>45</BuildTimeSeconds>
+
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>1.3</MaxPowerOutput>
+
+            <InventorySize>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.5</Z>
+            </InventorySize>
+            <FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos>
+            <PrimarySound>ShipSmNuclearSm</PrimarySound>
+            <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+            <DamagedSound>ParticleReactor</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+
+        </Definition>
+        <!--Small Large Reactor-->
+        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>SmallBlockLargeGenerator4x</SubtypeId>
+            </Id>
+            <DisplayName>Proficient Reactor</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>Textures\nuclear_reactor_large4x.dds</Icon>
+            <Description>Description_Reactor</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="3"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Small\GeneratorLarge.mwm</Model>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="Tech4x" Count="22"/>
+                <Component Subtype="SteelPlate" Count="90"/>
+                <Component Subtype="Construction" Count="21"/>
+                <Component Subtype="MetalGrid" Count="21"/>
+                <Component Subtype="LargeTube" Count="7"/>
+                <Component Subtype="Reactor" Count="214"/>
+                <Component Subtype="Motor" Count="12"/>
+                <Component Subtype="Computer" Count="57"/>
+                <Component Subtype="SteelPlate" Count="45"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+            <MountPoints>
+                <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2"/>
+                <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2"/>
+                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2"/>
+                <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" Default="true"/>
+                <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2"/>
+                <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Small\GeneratorLargeConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\GeneratorLargeConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorLargeConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>LargeReactor4x</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>68</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>38.35</MaxPowerOutput>
+
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos>
+            <PrimarySound>ShipSmNuclearLrg</PrimarySound>
+            <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+            <DamagedSound>ParticleReactor</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>25</PCU>
+
+        </Definition>
+        <!--Small Reactor-->
+        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LargeBlockSmallGenerator4x</SubtypeId>
+            </Id>
+            <DisplayName>Proficient Reactor</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>Textures\nuclear_reactor4x.dds</Icon>
+            <Description>Description_Reactor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Large\GeneratorSmall.mwm</Model>
+            <Components>
+                <Component Subtype="Tech4x" Count="22"/>
+                <Component Subtype="SteelPlate" Count="113"/>
+                <Component Subtype="Construction" Count="90"/>
+                <Component Subtype="MetalGrid" Count="9"/>
+                <Component Subtype="LargeTube" Count="18"/>
+                <Component Subtype="Reactor" Count="225"/>
+                <Component Subtype="Motor" Count="14"/>
+                <Component Subtype="Computer" Count="57"/>
+                <Component Subtype="SteelPlate" Count="68"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85"/>
+                <MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85"/>
+                <MountPoint Side="Right" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7"/>
+                <MountPoint Side="Left" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7"/>
+                <MountPoint Side="Bottom" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" Default="true"/>
+                <MountPoint Side="Front" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GeneratorSmallConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GeneratorSmallConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorSmallConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>SmallReactor4x</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>90</BuildTimeSeconds>
+
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>39</MaxPowerOutput>
+
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos>
+            <PrimarySound>ShipLrgNuclearSm</PrimarySound>
+            <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+            <DamagedSound>ParticleReactor</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+
+        </Definition>
+        <!--Large Reactor-->
+        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LargeBlockLargeGenerator4x</SubtypeId>
+            </Id>
+            <DisplayName>Proficient Reactor</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>Textures\nuclear_reactor_large4x.dds</Icon>
+            <Description>Description_Reactor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="3"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Large\GeneratorLarge.mwm</Model>
+            <Components>
+                <Component Subtype="Tech4x" Count="130"/>
+                <Component Subtype="SteelPlate" Count="1800"/>
+                <Component Subtype="Construction" Count="158"/>
+                <Component Subtype="MetalGrid" Count="90"/>
+                <Component Subtype="LargeTube" Count="90"/>
+                <Component Subtype="Superconductor" Count="225"/>
+                <Component Subtype="Reactor" Count="4500"/>
+                <Component Subtype="Motor" Count="45"/>
+                <Component Subtype="Computer" Count="169"/>
+                <Component Subtype="SteelPlate" Count="450"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+            <MountPoints>
+                <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2"/>
+                <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2"/>
+                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2"/>
+                <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" Default="true"/>
+                <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2"/>
+                <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\GeneratorLargeConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GeneratorLargeConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\GeneratorLargeConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\GeneratorLargeConstruction_4.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorLargeConstruction_5.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>LargeReactor4x</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>225</BuildTimeSeconds>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>780</MaxPowerOutput>
+            <InventorySize>
+                <X>2</X>
+                <Y>2</Y>
+                <Z>2</Z>
+            </InventorySize>
+            <FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos>
+            <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+            <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+            <DamagedSound>ParticleReactor</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+            <DestroySound>WepLrgWarheadExpl</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+
+        </Definition>
+    </CubeBlocks>
+</Definitions>
