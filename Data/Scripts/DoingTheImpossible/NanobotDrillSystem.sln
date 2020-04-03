@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NanobotDrillSystem", "NanobotDrillSystem.csproj", "{CAB7EC9F-A70A-48AB-8277-AB7BB3580C0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{99760932-7F53-49D1-99AF-74F09EE48DD4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlwaysAngryFactions", "AlwaysAngryFactions.csproj", "{480CDFBB-677F-448E-9F68-78AFDED94222}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AMD64 = Debug|AMD64
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|AMD64 = Release|AMD64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAB7EC9F-A70A-48AB-8277-AB7BB3580C0E}.Debug|AMD64.ActiveCfg = Debug|x64
+		{CAB7EC9F-A70A-48AB-8277-AB7BB3580C0E}.Debug|AMD64.Build.0 = Debug|x64
+		{CAB7EC9F-A70A-48AB-8277-AB7BB3580C0E}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{CAB7EC9F-A70A-48AB-8277-AB7BB3580C0E}.Debug|x64.ActiveCfg = Debug|x64
+		{CAB7EC9F-A70A-48AB-8277-AB7BB3580C0E}.Debug|x64.Build.0 = Debug|x64
+		{CAB7EC9F-A70A-48AB-8277-AB7BB3580C0E}.Release|AMD64.ActiveCfg = Release|x64
+		{CAB7EC9F-A70A-48AB-8277-AB7BB3580C0E}.Release|AMD64.Build.0 = Release|x64
+		{CAB7EC9F-A70A-48AB-8277-AB7BB3580C0E}.Release|Any CPU.ActiveCfg = Release|x64
+		{CAB7EC9F-A70A-48AB-8277-AB7BB3580C0E}.Release|x64.ActiveCfg = Release|x64
+		{CAB7EC9F-A70A-48AB-8277-AB7BB3580C0E}.Release|x64.Build.0 = Release|x64
+		{480CDFBB-677F-448E-9F68-78AFDED94222}.Debug|AMD64.ActiveCfg = Debug|x64
+		{480CDFBB-677F-448E-9F68-78AFDED94222}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{480CDFBB-677F-448E-9F68-78AFDED94222}.Debug|x64.ActiveCfg = Debug|x64
+		{480CDFBB-677F-448E-9F68-78AFDED94222}.Debug|x64.Build.0 = Debug|x64
+		{480CDFBB-677F-448E-9F68-78AFDED94222}.Release|AMD64.ActiveCfg = Release|x64
+		{480CDFBB-677F-448E-9F68-78AFDED94222}.Release|Any CPU.ActiveCfg = Release|x64
+		{480CDFBB-677F-448E-9F68-78AFDED94222}.Release|x64.ActiveCfg = Release|x64
+		{480CDFBB-677F-448E-9F68-78AFDED94222}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {722F4268-47C4-4B56-8FF7-60A59AF93C76}
+	EndGlobalSection
+EndGlobal
